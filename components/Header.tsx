@@ -1,4 +1,4 @@
-"use client"; // this is a client component 👈🏽
+"use client"; // this is a client component
 import React, { useState } from "react";
 import Image from "next/image";
 import logo from "../images/SM-Logo.png";
@@ -30,7 +30,6 @@ export default function Header({}: Props) {
           <div className={active ? "activeHamburger" : "hamburger"}></div>
         </div>
         <div className={active ? "activeSideNav" : "sideNav"}>
-          {/* <Image src={navBg} alt="navBg" width={100} height={100} className="opacity-25" /> */}
           <h1 className="my-5 text-center">Shahmar Mammadzada</h1>
           <ul className="w-4/5 mx-auto text-center">
             <a href="/#hero">

@@ -32,7 +32,7 @@ function Hero({}: Props) {
         transition={{
           duration: 1.2,
         }}
-        className="mt-24 w-11/12 mx-auto flex flex-col items-center text-center lg:w-2/4 xl:w-1/3"
+        className="mt-36 lg:mt-24 w-11/12 mx-auto flex flex-col items-center text-center lg:w-2/4 xl:w-1/3"
       >
         <h1 className="font-semibold text-3xl sm:text-4xl">Hi, I am Shahmar</h1>
         <p id="iAm" className="my-5 font-semibold text-xl sm:text-2xl">
@@ -46,6 +46,12 @@ function Hero({}: Props) {
         >
           My Resume
         </a>
+        {/* <a
+          href=""
+          className="font-medium text-lg sm:text-lg py-3 px-8 rounded-3xl"
+        >
+          Download CV
+        </a> */}
       </motion.div>
       <motion.div
         initial={{
@@ -63,7 +69,6 @@ function Hero({}: Props) {
         }}
         className="heroImg w-2/3 500px:w-2/4 md:w-2/5 h-fit mx-auto mt-16 lg:mt-0 overflow-hidden rounded-lg lg:w-1/4"
       >
-        {/* <Image id="myImg" src={myImg} alt="shahmar" /> */}
         <Image id="myImg" src={myImg2} alt="shahmar" />
       </motion.div>
     </div>

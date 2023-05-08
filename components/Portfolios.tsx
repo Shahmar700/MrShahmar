@@ -13,7 +13,7 @@ function Portfolios({}: Props) {
       id: 1,
       name: "SportsBox",
       about:
-        "I used HTML, CSS and Js technologies in this project. The project is of a simple advertising nature, business schedules, social network accounts and contact numbers are listed.",
+        "I used HTML, CSS and JS technologies in this project. The project is of a simple advertising nature, business schedules, social network accounts and contact numbers are listed.",
       img: "./images/SportsboxMockup.jpg",
       programs: "HTML CSS Javascript",
       url: "https://sportsbox.az/",
@@ -21,6 +21,16 @@ function Portfolios({}: Props) {
     },
     {
       id: 2,
+      name: "Metacomp",
+      about:
+        "My first (React) e-commerce web-site. On this site you can find all computer parts.",
+      img: "./images/MetacompMockup.jpg",
+      programs: "React, Api",
+      url: "https://shahmar700.github.io/Metacomp/",
+      github: "https://github.com/Shahmar700/Metacomp",
+    },
+    {
+      id: 3,
       name: "4D Dual Tvet",
       about:
         "This is an educational website. I have used Html, Css and Javascript programs. I have also designed it in a responsive design for all devices.",
@@ -30,7 +40,7 @@ function Portfolios({}: Props) {
       github: "https://github.com/Shahmar700/4DDualTvetAzerbaijan",
     },
     {
-      id: 3,
+      id: 4,
       name: "Prosofly",
       about:
         "Html, Css and Javascript were used in the assembly of the project. It is also designed in a responsive design.",
@@ -40,17 +50,17 @@ function Portfolios({}: Props) {
       github: "https://github.com/Shahmar700/CodersLab",
     },
     {
-      id: 4,
+      id: 5,
       name: "TTCP",
       about:
-        "Html, Css and Javascript were used in the assembly of the project. It is also designed in a responsive design.",
+        "This platform is a Technology Transfer and Science Commercialization Platform.",
       img: "./images/TtcpMockup.jpg",
       programs: "HTML CSS Javascipt",
       url: "https://www.ttcp.az/",
       github: "https://github.com/Shahmar700/ttcp",
     },
     {
-      id: 5,
+      id: 6,
       name: "ETNS 100il",
       about:
         "This is just the ETNS pilot project. The main functionality is on the SVG map. Information on regions is reflected.",
@@ -60,7 +70,7 @@ function Portfolios({}: Props) {
       github: "https://github.com/Shahmar700/etsnpilot",
     },
     {
-      id: 5,
+      id: 7,
       name: "Mole Game",
       about: "Just enjoy the game :)",
       img: "./images/MolegameMockup.jpg",
