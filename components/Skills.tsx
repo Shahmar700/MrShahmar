@@ -2,6 +2,20 @@
 import React, { useEffect } from "react";
 import { motion, AnimatePresence, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import htmlPng from "../images/html.png";
+import cssPng from "../images/css.png";
+import jsPng from "../images/js.png";
+import reactPng from "../images/react.png";
+import reduxPng from "../images/redux.png";
+import bootstrapPng from "../images/bootstarp.svg";
+import tailwindPng from "../images/tailwind.png";
+import nextPng from "../images/nextjs.png";
+import tsPng from "../images/typescript.png";
+import sassPng from "../images/sass.png";
+import apiPng from "../images/api.png";
+import gitPng from "../images/git.png";
+import Image from "next/image";
+import css from "styled-jsx/css";
 type Props = {};
 
 export default function Skills({}: Props) {
@@ -59,63 +73,63 @@ export default function Skills({}: Props) {
         id="programs"
         className="w-full 825px:w-3/4 1100px:w-2/4 mx-auto max-w-7xl mt-10 flex flex-wrap justify-between"
       >
-        <div className="imgDiv w-32 h-28">
-          <img src="/images/html.png" alt="img" />
+        <div className="relative imgDiv w-32 h-28">
+          <Image src={htmlPng} w-32 h-28 alt="html" />
           <span className="text-lg">HTML5</span>
         </div>
 
         <div className="imgDiv w-32 h-28">
-          <img className="w-32 h-28" src="/images/css.png" alt="" />
+          <Image src={cssPng} w-32 h-28 alt="html" />
           <span className="text-lg">CSS3</span>
         </div>
 
         <div className="imgDiv w-32 h-28">
-          <img className="w-32 h-28" src="/images/js.png" alt="" />
+          <Image src={jsPng} w-32 h-28 alt="html" />
           <span className="text-lg">Javascript</span>
         </div>
 
         <div className="imgDiv w-32 h-28">
-          <img className="w-32 h-28" src="/images/react.png" alt="" />
+          <Image src={reactPng} w-32 h-28 alt="html" />
           <span className="text-lg">React</span>
         </div>
 
         <div className="imgDiv w-32 h-28">
-          <img className="w-32 h-28" src="/images/redux.png" alt="" />
+          <Image src={reduxPng} w-32 h-28 alt="html" />
           <span className="text-lg">Redux</span>
         </div>
 
         <div className="imgDiv w-32 h-28">
-          <img className="w-32 h-28" src="/images/bootstarp.svg" alt="" />
+          <Image src={bootstrapPng} w-32 h-28 alt="html" />
           <span className="text-lg">Bootstrap</span>
         </div>
 
         <div className="imgDiv w-32 h-28">
-          <img className="w-32 h-28" src="/images/tailwind.png" alt="" />
+          <Image src={tailwindPng} w-32 h-28 alt="html" />
           <span className="text-lg">Tailwind</span>
         </div>
 
         <div className="imgDiv w-32 h-28">
-          <img className="w-32 h-28" src="/images/nextjs.png" alt="" />
+          <Image src={nextPng} w-32 h-28 alt="html" />
           <span className="text-lg">NextJs</span>
         </div>
 
         <div className="imgDiv w-32 h-28">
-          <img className="w-32 h-28" src="/images/typescript.png" alt="" />
+          <Image src={tsPng} w-32 h-28 alt="html" />
           <span className="text-lg">Typscript</span>
         </div>
 
         <div className="imgDiv w-32 h-28">
-          <img className="w-32 h-28" src="/images/sass.png" alt="" />
+          <Image src={sassPng} w-32 h-28 alt="html" />
           <span className="text-lg">Sass</span>
         </div>
 
         <div className="imgDiv w-32 h-28">
-          <img className="w-32 h-28" src="/images/api.png" alt="" />
+          <Image src={apiPng} w-32 h-28 alt="html" />
           <span className="text-lg">Api</span>
         </div>
 
         <div className="imgDiv w-32 h-28">
-          <img className="w-32 h-28" src="/images/git.png" alt="" />
+          <Image src={gitPng} w-32 h-28 alt="html" />
           <span className="text-lg">Git</span>
         </div>
       </motion.div>

@@ -73,7 +73,7 @@ function Portfolios({}: Props) {
       id: 7,
       name: "Mole Game",
       about: "Just enjoy the game :)",
-      img: "./images/MolegameMockup.jpg",
+      img: "./images/molegameMockup.jpg",
       programs: "HTML CSS Javascipt",
       url: "https://shahmar700.github.io/MoleGame/",
       github: "https://github.com/Shahmar700/MoleGame",
