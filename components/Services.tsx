@@ -52,7 +52,7 @@ function Services({}: Props) {
       ref={ref}
       className="h-screen justify-center 2xl:h-screen min-h-screen flex flex-col items-center relative max-w-7xl mx-auto px-7 pb-20 my-52 lg:my-0"
     >
-      <Image id="reactBg" src={reactBg} alt="gif" width={350} height={350} />
+      {/* <Image id="reactBg" src={reactBg} alt="gif" width={350} height={350} /> */}
       <motion.div animate={scrollAnimation1} className="flex items-center">
         <span className="text-3xl text-white mr-3">My </span>
         <h1 id="abouth1" className="text-3xl tracking-wider">
