@@ -22,9 +22,9 @@ export default function Header({}: Props) {
   const [active, setActive] = useState(false);
   return (
     <>
-      <div className="none headerMobile bg-navBg w-full h-20 lg:hidden flex items-center justify-between fixed top-0 left-0 z-50">
-        <div className="leftSide pl-4">
-          <Image src={logo1} alt="shahmar" width={65} height={100} />
+      <div className="none headerMobile bg-navBg w-full h-18 lg:hidden flex items-center justify-between fixed top-0 left-0 z-50">
+        <div className="leftSide pl-4 relative">
+          <Image src={logo1} alt="shahmar" width={60} height={100} />
         </div>
         <div onClick={() => setActive(!active)} className="pointer pr-4">
           <div className={active ? "activeHamburger" : "hamburger"}></div>

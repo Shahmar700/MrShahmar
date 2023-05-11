@@ -19,10 +19,12 @@ module.exports = {
       },
       colors: {
         navBg: "#040836",
+        footerBg: "#006080",
       },
       height: {
         "410px": "410px",
         "170px": "170px",
+        18: "72px",
       },
       screens: {
         "500px": "500px",

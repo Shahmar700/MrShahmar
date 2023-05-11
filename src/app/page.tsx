@@ -12,6 +12,7 @@ import Skills from "../../components/Skills";
 import Portfolios from "../../components/Portfolios";
 import { Triangle } from "react-loader-spinner";
 import { useState, useEffect } from "react";
+import Footer from "../../components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -71,6 +72,11 @@ export default function Home() {
           {/* Portfolios */}
           <section id="projects">
             <Portfolios />
+          </section>
+
+          {/* Footer  */}
+          <section>
+            <Footer />
           </section>
         </div>
       )}

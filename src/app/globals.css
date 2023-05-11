@@ -157,7 +157,7 @@
   background: linear-gradient(150deg, #77b3e4 0%, #00416a 74%);
   transform: translateX(100%);
   transition: all 0.5s ease-in-out;
-  top: 80px;
+  top: 72px;
   z-index: 99;
   /* display: none; */
 }
@@ -168,7 +168,7 @@
   background: linear-gradient(150deg, #77b3e4 0%, #00416a 74%);
   transform: translateX(0%);
   transition: all 0.5s ease-in-out;
-  top: 80px;
+  top: 72px;
   z-index: 99;
   /* display: none; */
 }
