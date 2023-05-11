@@ -381,3 +381,14 @@
 }
 
 /* Projects Side */
+
+[data-testid="triangle-loading"] {
+  background-color: transparent;
+}
+
+[data-testid="triangle-svg"] {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
