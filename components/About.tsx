@@ -81,21 +81,21 @@ function About({}: Props) {
         <table className="sm:table-fixed w-full">
           <tbody>
             <tr className="border-b border-slate-400">
-              <td>Name:</td>
+              <td className="text-yellow-400">Name:</td>
               <td className="text-right 500px:text-left">Shahmar Mammadzada</td>
             </tr>
             <tr className="border-b border-slate-400">
-              <td>Age:</td>
+              <td className="text-yellow-400">Age:</td>
               <td className="text-right 500px:text-left">24</td>
             </tr>
             <tr className="border-b border-slate-400">
-              <td>Email:</td>
+              <td className="text-yellow-400">Email:</td>
               <td className="text-right 500px:text-left">
                 <a href="mailto:shahmar700@gmail.com">shahmar700@gmail.com</a>
               </td>
             </tr>
             <tr className="border-b border-slate-400">
-              <td>Linkedin:</td>
+              <td className="text-yellow-400">Linkedin:</td>
               <td className="text-right 500px:text-left">
                 <a
                   target="_blank"
@@ -106,13 +106,13 @@ function About({}: Props) {
               </td>
             </tr>
             <tr className="border-b border-slate-400">
-              <td>Phone:</td>
+              <td className="text-yellow-400">Phone:</td>
               <td className="text-right 500px:text-left">
                 <a href="tel:+994776057775">+(994)776057775</a>
               </td>
             </tr>
-            <tr className="border-b border-slate-400">
-              <td>Freelance:</td>
+            <tr className=" border-slate-400">
+              <td className="text-yellow-400">Freelance:</td>
               <td className="text-right 500px:text-left">Available</td>
             </tr>
           </tbody>
