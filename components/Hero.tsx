@@ -46,12 +46,13 @@ function Hero({}: Props) {
         >
           My Resume
         </a>
-        {/* <a
-          href=""
+        <a
+          download="CV_Shahmar.pdf"
+          href="CV_Shahmar.pdf"
           className="font-medium text-lg sm:text-lg py-3 px-8 rounded-3xl"
         >
           Download CV
-        </a> */}
+        </a>
       </motion.div>
       <motion.div
         initial={{

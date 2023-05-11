@@ -117,7 +117,9 @@ function Resume({}: Props) {
           <h1 className="mb-8 text-3xl lg:text-4xl text-white"> Education</h1>
           <div className="eduDiv">
             <div className="oneEdu oneExp pl-10 pb-12 border-l border-slate-400 text-white">
-              <p className="mb-7 text-sm text-slate-400">Sep 2021 - Present</p>
+              <p className="mb-7 text-sm text-slate-400">
+                Sep 2021 - June 2023
+              </p>
               <h2 className="mb-1 text-2xl">Computer Enginnering</h2>
               <h6 className="text-sm text-slate-400">
                 Master of Azerbaijan Technical University
@@ -129,7 +131,9 @@ function Resume({}: Props) {
               <h6 className="text-sm text-slate-400">Cooders Azerbaijan</h6>
             </div>
             <div className="oneEdu oneExp pl-10 pb-0 border-l border-slate-400 text-white">
-              <p className="mb-7 text-sm text-slate-400">Sep 2017 - Jan 2021</p>
+              <p className="mb-7 text-sm text-slate-400">
+                Sep 2017 - June 2021
+              </p>
               <h2 className="mb-1 text-2xl">Computer Enginnering</h2>
               <h6 className="text-sm text-slate-400">
                 Bachelor of Azerbaijan Technical University
