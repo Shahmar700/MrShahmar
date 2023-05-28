@@ -89,8 +89,13 @@ function Resume({}: Props) {
               <p className="mb-7 text-sm text-slate-400">Jan 2023 - Present</p>
               <h2 className="mb-1 text-2xl">Front-end Developer</h2>
               <h6 className="text-sm text-slate-400">
-                GetGuide in ABB innovation (startup)
+                GetGuide in ABB innovation (Startup)
               </h6>
+            </div>
+            <div className="oneExp pl-10 pb-12 border-l border-slate-400 text-white">
+              <p className="mb-7 text-sm text-slate-400">June 2022 - Present</p>
+              <h2 className="mb-1 text-2xl">Front-end Developer</h2>
+              <h6 className="text-sm text-slate-400">Kryptos (Remote)</h6>
             </div>
             <div className="oneExp pl-10 pb-12 border-l text-white">
               <p className="mb-7 text-sm text-slate-400">
