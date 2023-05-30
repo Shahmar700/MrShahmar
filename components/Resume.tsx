@@ -125,7 +125,7 @@ function Resume({}: Props) {
               <p className="mb-7 text-sm text-slate-400">
                 Sep 2021 - June 2023
               </p>
-              <h2 className="mb-1 text-2xl">Computer Enginnering</h2>
+              <h2 className="mb-1 text-2xl">Computer Engineering</h2>
               <h6 className="text-sm text-slate-400">
                 Master of Azerbaijan Technical University
               </h6>
@@ -139,7 +139,7 @@ function Resume({}: Props) {
               <p className="mb-7 text-sm text-slate-400">
                 Sep 2017 - June 2021
               </p>
-              <h2 className="mb-1 text-2xl">Computer Enginnering</h2>
+              <h2 className="mb-1 text-2xl">Computer Engineering</h2>
               <h6 className="text-sm text-slate-400">
                 Bachelor of Azerbaijan Technical University
               </h6>
