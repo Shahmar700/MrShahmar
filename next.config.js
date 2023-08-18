@@ -6,5 +6,11 @@ const nextConfig = {
     appDir: true,
   },
 };
+module.exports = {
+  images: {
+    loader: 'imgix',
+    path: '/',
+  },
+};
 
 module.exports = nextConfig;

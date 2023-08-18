@@ -70,7 +70,13 @@ function Hero({}: Props) {
         }}
         className="heroImg w-2/3 500px:w-2/4 md:w-2/5 h-fit mx-auto mt-16 lg:mt-0 overflow-hidden rounded-lg lg:w-1/4"
       >
-        <Image id="myImg" src={myImg2} alt="shahmar" />
+        <Image
+          id="myImg"
+          src={myImg2}
+          alt="shahmar"
+          width={320}
+          height={330}
+        />
       </motion.div>
     </div>
   );
