@@ -63,11 +63,6 @@ function About({}: Props) {
         alt="image"
         className="absolute -scale-50 -left-32 -top-24 lg:-top-28 lg:left-10 lg:scale-50"
       />
-      {/* <Image
-        src={reactBg}
-        alt="image"
-        className="absolute left-1/3 top-2/4 sm:top-28 lg:left-1/2 scale-75 sm:scale-50"
-      /> */}
       <div
         id="biography"
         className="w-full p-4 pt-14 text-lg text-white lg:w-2/3 mt-20 border border-slate-400 rounded-md flex justify-between"

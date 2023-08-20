@@ -74,62 +74,62 @@ export default function Skills({}: Props) {
         className="w-full 825px:w-3/4 1100px:w-2/4 mx-auto max-w-7xl mt-10 flex flex-wrap justify-between"
       >
         <div className="relative imgDiv w-32 h-28">
-          <Image src={htmlPng} w-32 h-28 alt="html" />
+          <Image src={htmlPng} width={116} height={65} alt="html" />
           <span className="text-lg">HTML5</span>
         </div>
 
         <div className="imgDiv w-32 h-28">
-          <Image src={cssPng} w-32 h-28 alt="html" />
+          <Image src={cssPng} width={116} height={65} alt="css" />
           <span className="text-lg">CSS3</span>
         </div>
 
         <div className="imgDiv w-32 h-28">
-          <Image src={jsPng} w-32 h-28 alt="html" />
+          <Image src={jsPng} width={116} height={65} alt="js" />
           <span className="text-lg">Javascript</span>
         </div>
 
         <div className="imgDiv w-32 h-28">
-          <Image src={reactPng} w-32 h-28 alt="html" />
+          <Image src={reactPng} width={116} height={65} alt="react" />
           <span className="text-lg">React</span>
         </div>
 
         <div className="imgDiv w-32 h-28">
-          <Image src={reduxPng} w-32 h-28 alt="html" />
+          <Image src={reduxPng} width={116} height={65} alt="redux" />
           <span className="text-lg">Redux</span>
         </div>
 
         <div className="imgDiv w-32 h-28">
-          <Image src={bootstrapPng} w-32 h-28 alt="html" />
+          <Image src={bootstrapPng} width={116} height={65} alt="bootstrap" />
           <span className="text-lg">Bootstrap</span>
         </div>
 
         <div className="imgDiv w-32 h-28">
-          <Image src={tailwindPng} w-32 h-28 alt="html" />
+          <Image src={tailwindPng} width={116} height={65} alt="tailwind" />
           <span className="text-lg">Tailwind</span>
         </div>
 
         <div className="imgDiv w-32 h-28">
-          <Image src={nextPng} w-32 h-28 alt="html" />
+          <Image src={nextPng} width={116} height={65} alt="next" />
           <span className="text-lg">NextJs</span>
         </div>
 
         <div className="imgDiv w-32 h-28">
-          <Image src={tsPng} w-32 h-28 alt="html" />
+          <Image src={tsPng} width={116} height={65} alt="ts" />
           <span className="text-lg">Typscript</span>
         </div>
 
         <div className="imgDiv w-32 h-28">
-          <Image src={sassPng} w-32 h-28 alt="html" />
+          <Image src={sassPng} width={116} height={65} alt="sass" />
           <span className="text-lg">Sass</span>
         </div>
 
         <div className="imgDiv w-32 h-28">
-          <Image src={apiPng} w-32 h-28 alt="html" />
+          <Image src={apiPng} width={116} height={65} alt="api" />
           <span className="text-lg">Api</span>
         </div>
 
         <div className="imgDiv w-32 h-28">
-          <Image src={gitPng} w-32 h-28 alt="html" />
+          <Image src={gitPng} width={116} height={65} alt="git" />
           <span className="text-lg">Git</span>
         </div>
       </motion.div>
