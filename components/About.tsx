@@ -81,7 +81,7 @@ function About({}: Props) {
             </tr>
             <tr className="border-b border-slate-400">
               <td className="text-yellow-400">Age:</td>
-              <td className="text-right 500px:text-left">24</td>
+              <td className="text-right 500px:text-left">25</td>
             </tr>
             <tr className="border-b border-slate-400">
               <td className="text-yellow-400">Email:</td>

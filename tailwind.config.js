@@ -38,6 +38,7 @@ module.exports = {
 
         "1100px": "1100px",
         // => @media (min-width: 1100px) { ... }
+        
       },
     },
   },

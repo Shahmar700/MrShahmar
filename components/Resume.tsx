@@ -65,7 +65,7 @@ function Resume({}: Props) {
   return (
     <div
       ref={ref}
-      className="h-fit md:h-screen 2xl:h-screen flex flex-col 2xl:justify-center items-center relative max-w-7xl mx-auto px-7"
+      className="h-fit md:h-screen 2xl:h-screen flex flex-col 2xl:justify-center items-center relative max-w-7xl mx-auto px-7 lg:mb-48"
     >
       <img
         className="absolute right-0 scale-50 md:top-1 md:right-20 xl:top-10 xl:right-24"
@@ -85,15 +85,22 @@ function Resume({}: Props) {
         >
           <h1 className="mb-8 text-3xl lg:text-4xl text-white">Experience</h1>
           <div className="expDiv">
+          <div className="oneExp pl-10 pb-12 border-l border-slate-400 text-white">
+              <p className="mb-7 text-sm text-slate-400">Sep 2023 - Present</p>
+              <h2 className="mb-1 text-2xl">Software provider (Front-end)</h2>
+              <h6 className="text-sm text-slate-400">
+                REFERANS MEDİCAL GROUP
+              </h6>
+            </div>
             <div className="oneExp pl-10 pb-12 border-l border-slate-400 text-white">
-              <p className="mb-7 text-sm text-slate-400">Jan 2023 - Present</p>
+              <p className="mb-7 text-sm text-slate-400">Jan 2023 - July 2023</p>
               <h2 className="mb-1 text-2xl">Front-end Developer</h2>
               <h6 className="text-sm text-slate-400">
                 GetGuide in ABB innovation (Startup)
               </h6>
             </div>
             <div className="oneExp pl-10 pb-12 border-l border-slate-400 text-white">
-              <p className="mb-7 text-sm text-slate-400">June 2022 - Present</p>
+              <p className="mb-7 text-sm text-slate-400">June 2022 - Nov 2023</p>
               <h2 className="mb-1 text-2xl">Front-end Developer</h2>
               <h6 className="text-sm text-slate-400">Kryptos (Remote)</h6>
             </div>
