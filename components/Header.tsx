@@ -124,7 +124,7 @@ export default function Header({}: Props) {
           >
             <li>
               {" "}
-              <BsCodeSlash style={iconStyle} /> <span>Services</span>
+              <GiSkills style={iconStyle} /> <span>Services</span> 
             </li>
           </a>
           <a
@@ -133,7 +133,7 @@ export default function Header({}: Props) {
           >
             <li>
               {" "}
-              <GiSkills style={iconStyle} /> <span>Skills</span>
+              <BsCodeSlash style={iconStyle} /> <span>Skills</span>
             </li>
           </a>
           <a

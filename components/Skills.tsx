@@ -14,6 +14,7 @@ import tsPng from "../images/typescript.png";
 import sassPng from "../images/sass.png";
 import apiPng from "../images/api.png";
 import gitPng from "../images/git.png";
+import vuePng from "../images/vuejs.png";
 import Image from "next/image";
 import css from "styled-jsx/css";
 type Props = {};
@@ -131,6 +132,11 @@ export default function Skills({}: Props) {
         <div className="imgDiv w-32 h-28">
           <Image src={gitPng} width={116} height={65} alt="git" />
           <span className="text-lg">Git</span>
+        </div>
+
+        <div className="imgDiv w-32 h-28">
+          <Image src={vuePng} width={116} height={65} alt="git" />
+          <span className="text-lg">VueJs</span>
         </div>
       </motion.div>
     </div>
